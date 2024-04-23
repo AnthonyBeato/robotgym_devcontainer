@@ -1,0 +1,18 @@
+[8.347s] Invoking command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data
+[12.079s] running egg_info
+[12.091s] writing ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/PKG-INFO
+[12.103s] writing dependency_links to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/dependency_links.txt
+[12.115s] writing entry points to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/entry_points.txt
+[12.124s] writing requirements to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/requires.txt
+[12.131s] writing top-level names to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/top_level.txt
+[12.184s] reading manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'
+[12.330s] writing manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'
+[12.337s] running build
+[12.352s] running build_py
+[12.414s] running install
+[12.416s] running install_lib
+[12.560s] running install_data
+[12.654s] copying launch/ti_rlsk_sim_launch_file.py -> /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/launch
+[12.707s] creating /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/urdf
+[12.717s] error: can't copy 'urdf/ti_rlsk_robot.urdf.xacro': doesn't exist or not a regular file
+[12.774s] Invoked command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg' returned '1': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data

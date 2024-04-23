@@ -1,0 +1,19 @@
+[19.891s] Invoking command in '/thesis_project/robotgym_ws/src/common_dependencies': PYTHONPATH=/thesis_project/robotgym_ws/build/common_dependencies/prefix_override:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/common_dependencies build --build-base /thesis_project/robotgym_ws/build/common_dependencies/build install --record /thesis_project/robotgym_ws/build/common_dependencies/install.log --single-version-externally-managed install_data
+[22.933s] running egg_info
+[22.950s] writing ../../build/common_dependencies/common_dependencies.egg-info/PKG-INFO
+[22.962s] writing dependency_links to ../../build/common_dependencies/common_dependencies.egg-info/dependency_links.txt
+[22.976s] writing entry points to ../../build/common_dependencies/common_dependencies.egg-info/entry_points.txt
+[22.988s] writing requirements to ../../build/common_dependencies/common_dependencies.egg-info/requires.txt
+[22.995s] writing top-level names to ../../build/common_dependencies/common_dependencies.egg-info/top_level.txt
+[23.071s] reading manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+[23.206s] writing manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+[23.213s] running build
+[23.215s] running build_py
+[23.247s] running install
+[23.249s] running install_lib
+[23.374s] running install_data
+[23.431s] running install_egg_info
+[23.463s] removing '/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info' (and everything under it)
+[23.598s] Copying ../../build/common_dependencies/common_dependencies.egg-info to /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info
+[24.119s] running install_scripts
+[24.411s] writing list of installed files to '/thesis_project/robotgym_ws/build/common_dependencies/install.log'

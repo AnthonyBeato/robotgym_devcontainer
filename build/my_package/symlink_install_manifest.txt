@@ -1,0 +1,17 @@
+/thesis_project/install/my_package/share/my_package/launch/listener.launch.py
+/thesis_project/install/my_package/share/my_package/launch/talker.launch.py
+/thesis_project/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/thesis_project/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/thesis_project/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/thesis_project/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/thesis_project/install/my_package/share/my_package/environment/path.sh
+/thesis_project/install/my_package/share/my_package/environment/path.dsv
+/thesis_project/install/my_package/share/my_package/local_setup.bash
+/thesis_project/install/my_package/share/my_package/local_setup.sh
+/thesis_project/install/my_package/share/my_package/local_setup.zsh
+/thesis_project/install/my_package/share/my_package/local_setup.dsv
+/thesis_project/install/my_package/share/my_package/package.dsv
+/thesis_project/install/my_package/share/ament_index/resource_index/packages/my_package
+/thesis_project/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/thesis_project/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/thesis_project/install/my_package/share/my_package/package.xml

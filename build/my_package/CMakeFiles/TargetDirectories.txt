@@ -1,0 +1,9 @@
+/thesis_project/build/my_package/CMakeFiles/uninstall.dir
+/thesis_project/build/my_package/CMakeFiles/my_package_uninstall.dir
+/thesis_project/build/my_package/CMakeFiles/test.dir
+/thesis_project/build/my_package/CMakeFiles/edit_cache.dir
+/thesis_project/build/my_package/CMakeFiles/rebuild_cache.dir
+/thesis_project/build/my_package/CMakeFiles/list_install_components.dir
+/thesis_project/build/my_package/CMakeFiles/install.dir
+/thesis_project/build/my_package/CMakeFiles/install/local.dir
+/thesis_project/build/my_package/CMakeFiles/install/strip.dir

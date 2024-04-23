@@ -1,0 +1,6 @@
+Invoking command in '/thesis_project/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /thesis_project/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/thesis_project/install/my_package
+Invoked command in '/thesis_project/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /thesis_project/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/thesis_project/install/my_package
+Invoking command in '/thesis_project/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /thesis_project/build/my_package -- -j12 -l12
+Invoked command in '/thesis_project/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /thesis_project/build/my_package -- -j12 -l12
+Invoking command in '/thesis_project/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /thesis_project/build/my_package
+Invoked command in '/thesis_project/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /thesis_project/build/my_package

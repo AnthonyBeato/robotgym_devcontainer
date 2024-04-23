@@ -1,0 +1,16 @@
+[19.177s] Invoking command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data
+[22.329s] running egg_info
+[22.336s] writing ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/PKG-INFO
+[22.349s] writing dependency_links to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/dependency_links.txt
+[22.361s] writing entry points to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/entry_points.txt
+[22.373s] writing requirements to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/requires.txt
+[22.380s] writing top-level names to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/top_level.txt
+[22.461s] reading manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'
+[22.594s] writing manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'
+[22.600s] running build
+[22.602s] running build_py
+[22.635s] running install
+[22.637s] running install_lib
+[22.766s] running install_data
+[22.827s] error: can't copy 'launch/ti_rlsk_sim_launch_file.py.py': doesn't exist or not a regular file
+[22.876s] Invoked command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg' returned '1': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data

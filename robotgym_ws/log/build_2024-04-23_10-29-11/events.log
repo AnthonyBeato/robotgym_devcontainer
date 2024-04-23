@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000641] (common_dependencies) JobQueued: {'identifier': 'common_dependencies', 'dependencies': OrderedDict()}
+[0.001037] (multi_robot_controller) JobQueued: {'identifier': 'multi_robot_controller', 'dependencies': OrderedDict()}
+[0.001500] (ti_rlsk_pkg) JobQueued: {'identifier': 'ti_rlsk_pkg', 'dependencies': OrderedDict()}
+[0.002020] (user_interface) JobQueued: {'identifier': 'user_interface', 'dependencies': OrderedDict()}
+[0.002478] (common_dependencies) JobStarted: {'identifier': 'common_dependencies'}
+[0.086686] (-) TimerEvent: {}
+[0.176591] (multi_robot_controller) JobStarted: {'identifier': 'multi_robot_controller'}
+[0.188588] (-) TimerEvent: {}
+[0.289392] (-) TimerEvent: {}
+[0.327486] (ti_rlsk_pkg) JobStarted: {'identifier': 'ti_rlsk_pkg'}
+[0.389580] (-) TimerEvent: {}
+[0.483923] (user_interface) JobStarted: {'identifier': 'user_interface'}
+[0.489761] (-) TimerEvent: {}
+[0.590573] (-) TimerEvent: {}
+[0.691697] (-) TimerEvent: {}
+[0.792576] (-) TimerEvent: {}
+[0.893413] (-) TimerEvent: {}
+[0.994307] (-) TimerEvent: {}
+[1.095183] (-) TimerEvent: {}
+[1.195895] (-) TimerEvent: {}
+[1.296681] (-) TimerEvent: {}
+[1.397449] (-) TimerEvent: {}
+[1.498307] (-) TimerEvent: {}
+[1.599249] (-) TimerEvent: {}
+[1.700108] (-) TimerEvent: {}
+[1.801146] (-) TimerEvent: {}
+[1.901908] (-) TimerEvent: {}
+[2.002749] (-) TimerEvent: {}
+[2.103573] (-) TimerEvent: {}
+[2.204396] (-) TimerEvent: {}
+[2.305522] (-) TimerEvent: {}
+[2.406747] (-) TimerEvent: {}
+[2.507616] (-) TimerEvent: {}
+[2.608602] (-) TimerEvent: {}
+[2.709481] (-) TimerEvent: {}
+[2.810397] (-) TimerEvent: {}
+[2.911126] (-) TimerEvent: {}
+[3.011898] (-) TimerEvent: {}
+[3.112620] (-) TimerEvent: {}
+[3.213758] (-) TimerEvent: {}
+[3.314466] (-) TimerEvent: {}
+[3.415242] (-) TimerEvent: {}
+[3.516151] (-) TimerEvent: {}
+[3.617321] (-) TimerEvent: {}
+[3.718495] (-) TimerEvent: {}
+[3.819309] (-) TimerEvent: {}
+[3.920208] (-) TimerEvent: {}
+[4.021007] (-) TimerEvent: {}
+[4.121818] (-) TimerEvent: {}
+[4.222677] (-) TimerEvent: {}
+[4.323575] (-) TimerEvent: {}
+[4.424424] (-) TimerEvent: {}
+[4.525187] (-) TimerEvent: {}
+[4.625928] (-) TimerEvent: {}
+[4.726788] (-) TimerEvent: {}
+[4.827691] (-) TimerEvent: {}
+[4.928577] (-) TimerEvent: {}
+[4.933788] (common_dependencies) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/common_dependencies', 'build', '--build-base', '/thesis_project/robotgym_ws/build/common_dependencies/build', 'install', '--record', '/thesis_project/robotgym_ws/build/common_dependencies/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/thesis_project/robotgym_ws/src/common_dependencies', 'env': {'HOSTNAME': '65b53883f601', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/home/vscode', 'OLDPWD': '/thesis_project/robotgym_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2507b9d7-1029-4a87-bafd-3accb6e280c2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/thesis_project/robotgym_ws/install', 'ROS_DISTRO': 'iron', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8b83ef29-4af8-4063-8c72-b300acb87fdc.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-44eedfd7df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/thesis_project/robotgym_ws/build/common_dependencies', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/thesis_project/robotgym_ws/build/common_dependencies/prefix_override:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.970625] (ti_rlsk_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ti_rlsk_pkg', 'build', '--build-base', '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/build', 'install', '--record', '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/thesis_project/robotgym_ws/src/ti_rlsk_pkg', 'env': {'HOSTNAME': '65b53883f601', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/home/vscode', 'OLDPWD': '/thesis_project/robotgym_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2507b9d7-1029-4a87-bafd-3accb6e280c2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/thesis_project/robotgym_ws/install', 'ROS_DISTRO': 'iron', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8b83ef29-4af8-4063-8c72-b300acb87fdc.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-44eedfd7df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/thesis_project/robotgym_ws/build/ti_rlsk_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.995966] (multi_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/multi_robot_controller', 'build', '--build-base', '/thesis_project/robotgym_ws/build/multi_robot_controller/build', 'install', '--record', '/thesis_project/robotgym_ws/build/multi_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/thesis_project/robotgym_ws/src/multi_robot_controller', 'env': {'HOSTNAME': '65b53883f601', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/home/vscode', 'OLDPWD': '/thesis_project/robotgym_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2507b9d7-1029-4a87-bafd-3accb6e280c2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/thesis_project/robotgym_ws/install', 'ROS_DISTRO': 'iron', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8b83ef29-4af8-4063-8c72-b300acb87fdc.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-44eedfd7df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/thesis_project/robotgym_ws/build/multi_robot_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/thesis_project/robotgym_ws/build/multi_robot_controller/prefix_override:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[5.028761] (-) TimerEvent: {}
+[5.042438] (user_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/user_interface', 'build', '--build-base', '/thesis_project/robotgym_ws/build/user_interface/build', 'install', '--record', '/thesis_project/robotgym_ws/build/user_interface/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/thesis_project/robotgym_ws/src/user_interface', 'env': {'HOSTNAME': '65b53883f601', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/home/vscode', 'OLDPWD': '/thesis_project/robotgym_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2507b9d7-1029-4a87-bafd-3accb6e280c2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/thesis_project/robotgym_ws/install', 'ROS_DISTRO': 'iron', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8b83ef29-4af8-4063-8c72-b300acb87fdc.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-44eedfd7df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/thesis_project/robotgym_ws/build/user_interface', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/thesis_project/robotgym_ws/build/user_interface/prefix_override:/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[5.128932] (-) TimerEvent: {}
+[5.230126] (-) TimerEvent: {}
+[5.331298] (-) TimerEvent: {}
+[5.432170] (-) TimerEvent: {}
+[5.532845] (-) TimerEvent: {}
+[5.633640] (-) TimerEvent: {}
+[5.734576] (-) TimerEvent: {}
+[5.835579] (-) TimerEvent: {}
+[5.936512] (-) TimerEvent: {}
+[6.037372] (-) TimerEvent: {}
+[6.138180] (-) TimerEvent: {}
+[6.239090] (-) TimerEvent: {}
+[6.339860] (-) TimerEvent: {}
+[6.440696] (-) TimerEvent: {}
+[6.459186] (ti_rlsk_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.473699] (ti_rlsk_pkg) StdoutLine: {'line': b'writing ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/PKG-INFO\n'}
+[6.489046] (ti_rlsk_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/dependency_links.txt\n'}
+[6.501853] (ti_rlsk_pkg) StdoutLine: {'line': b'writing entry points to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/entry_points.txt\n'}
+[6.509542] (common_dependencies) StdoutLine: {'line': b'running egg_info\n'}
+[6.513380] (ti_rlsk_pkg) StdoutLine: {'line': b'writing requirements to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/requires.txt\n'}
+[6.519340] (common_dependencies) StdoutLine: {'line': b'writing ../../build/common_dependencies/common_dependencies.egg-info/PKG-INFO\n'}
+[6.521346] (ti_rlsk_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/top_level.txt\n'}
+[6.532380] (common_dependencies) StdoutLine: {'line': b'writing dependency_links to ../../build/common_dependencies/common_dependencies.egg-info/dependency_links.txt\n'}
+[6.540866] (-) TimerEvent: {}
+[6.546346] (common_dependencies) StdoutLine: {'line': b'writing entry points to ../../build/common_dependencies/common_dependencies.egg-info/entry_points.txt\n'}
+[6.558908] (common_dependencies) StdoutLine: {'line': b'writing requirements to ../../build/common_dependencies/common_dependencies.egg-info/requires.txt\n'}
+[6.567390] (common_dependencies) StdoutLine: {'line': b'writing top-level names to ../../build/common_dependencies/common_dependencies.egg-info/top_level.txt\n'}
+[6.573297] (multi_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[6.582956] (multi_robot_controller) StdoutLine: {'line': b'writing ../../build/multi_robot_controller/multi_robot_controller.egg-info/PKG-INFO\n'}
+[6.596309] (user_interface) StdoutLine: {'line': b'running egg_info\n'}
+[6.598692] (ti_rlsk_pkg) StdoutLine: {'line': b"reading manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'\n"}
+[6.601061] (multi_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/multi_robot_controller/multi_robot_controller.egg-info/dependency_links.txt\n'}
+[6.607261] (user_interface) StdoutLine: {'line': b'writing ../../build/user_interface/user_interface.egg-info/PKG-INFO\n'}
+[6.609824] (multi_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/multi_robot_controller/multi_robot_controller.egg-info/entry_points.txt\n'}
+[6.618940] (multi_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/multi_robot_controller/multi_robot_controller.egg-info/requires.txt\n'}
+[6.621335] (user_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/user_interface/user_interface.egg-info/dependency_links.txt\n'}
+[6.625944] (multi_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/multi_robot_controller/multi_robot_controller.egg-info/top_level.txt\n'}
+[6.634129] (user_interface) StdoutLine: {'line': b'writing entry points to ../../build/user_interface/user_interface.egg-info/entry_points.txt\n'}
+[6.641036] (-) TimerEvent: {}
+[6.643758] (user_interface) StdoutLine: {'line': b'writing requirements to ../../build/user_interface/user_interface.egg-info/requires.txt\n'}
+[6.647176] (common_dependencies) StdoutLine: {'line': b"reading manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'\n"}
+[6.650607] (user_interface) StdoutLine: {'line': b'writing top-level names to ../../build/user_interface/user_interface.egg-info/top_level.txt\n'}
+[6.701983] (multi_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'\n"}
+[6.723644] (user_interface) StdoutLine: {'line': b"reading manifest file '../../build/user_interface/user_interface.egg-info/SOURCES.txt'\n"}
+[6.739010] (ti_rlsk_pkg) StdoutLine: {'line': b"writing manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'\n"}
+[6.741168] (-) TimerEvent: {}
+[6.745552] (ti_rlsk_pkg) StdoutLine: {'line': b'running build\n'}
+[6.747720] (ti_rlsk_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.787027] (ti_rlsk_pkg) StdoutLine: {'line': b'running install\n'}
+[6.789059] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.790956] (common_dependencies) StdoutLine: {'line': b"writing manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'\n"}
+[6.794944] (common_dependencies) StdoutLine: {'line': b'running build\n'}
+[6.796903] (common_dependencies) StdoutLine: {'line': b'running build_py\n'}
+[6.832753] (common_dependencies) StdoutLine: {'line': b'running install\n'}
+[6.834506] (common_dependencies) StdoutLine: {'line': b'running install_lib\n'}
+[6.841408] (-) TimerEvent: {}
+[6.843772] (multi_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'\n"}
+[6.850344] (multi_robot_controller) StdoutLine: {'line': b'running build\n'}
+[6.852250] (multi_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[6.865866] (user_interface) StdoutLine: {'line': b"writing manifest file '../../build/user_interface/user_interface.egg-info/SOURCES.txt'\n"}
+[6.871986] (user_interface) StdoutLine: {'line': b'running build\n'}
+[6.873687] (user_interface) StdoutLine: {'line': b'running build_py\n'}
+[6.888132] (multi_robot_controller) StdoutLine: {'line': b'running install\n'}
+[6.889973] (multi_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[6.909023] (user_interface) StdoutLine: {'line': b'running install\n'}
+[6.910591] (user_interface) StdoutLine: {'line': b'running install_lib\n'}
+[6.915963] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.941630] (-) TimerEvent: {}
+[6.960842] (common_dependencies) StdoutLine: {'line': b'running install_data\n'}
+[6.971816] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.005331] (ti_rlsk_pkg) StdoutLine: {'line': b'Copying ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info to /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages/ti_rlsk_pkg-0.0.1-py3.10.egg-info\n'}
+[7.013319] (multi_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.014980] (common_dependencies) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.036721] (user_interface) StdoutLine: {'line': b'running install_data\n'}
+[7.038467] (common_dependencies) StdoutLine: {'line': b"removing '/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.041793] (-) TimerEvent: {}
+[7.068933] (multi_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.093404] (multi_robot_controller) StdoutLine: {'line': b"removing '/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.097562] (user_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.121745] (user_interface) StdoutLine: {'line': b"removing '/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.141985] (-) TimerEvent: {}
+[7.169325] (common_dependencies) StdoutLine: {'line': b'Copying ../../build/common_dependencies/common_dependencies.egg-info to /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info\n'}
+[7.222199] (multi_robot_controller) StdoutLine: {'line': b'Copying ../../build/multi_robot_controller/multi_robot_controller.egg-info to /thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller-0.0.0-py3.10.egg-info\n'}
+[7.242187] (-) TimerEvent: {}
+[7.249655] (user_interface) StdoutLine: {'line': b'Copying ../../build/user_interface/user_interface.egg-info to /thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface-0.0.0-py3.10.egg-info\n'}
+[7.342354] (-) TimerEvent: {}
+[7.443249] (-) TimerEvent: {}
+[7.532121] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.543425] (-) TimerEvent: {}
+[7.644426] (-) TimerEvent: {}
+[7.675953] (ti_rlsk_pkg) StdoutLine: {'line': b'Installing ti_rlsk_node script to /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/ti_rlsk_pkg\n'}
+[7.688120] (common_dependencies) StdoutLine: {'line': b'running install_scripts\n'}
+[7.700457] (ti_rlsk_pkg) StdoutLine: {'line': b"writing list of installed files to '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log'\n"}
+[7.735952] (multi_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.742212] (ti_rlsk_pkg) CommandEnded: {'returncode': 0}
+[7.745874] (-) TimerEvent: {}
+[7.773791] (user_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[7.834025] (common_dependencies) StdoutLine: {'line': b"writing list of installed files to '/thesis_project/robotgym_ws/build/common_dependencies/install.log'\n"}
+[7.846052] (-) TimerEvent: {}
+[7.885214] (multi_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/thesis_project/robotgym_ws/build/multi_robot_controller/install.log'\n"}
+[7.912087] (user_interface) StdoutLine: {'line': b"writing list of installed files to '/thesis_project/robotgym_ws/build/user_interface/install.log'\n"}
+[7.946220] (-) TimerEvent: {}
+[8.047115] (-) TimerEvent: {}
+[8.147937] (-) TimerEvent: {}
+[8.248833] (-) TimerEvent: {}
+[8.341809] (ti_rlsk_pkg) JobEnded: {'identifier': 'ti_rlsk_pkg', 'rc': 0}
+[8.359751] (-) TimerEvent: {}
+[8.360468] (common_dependencies) CommandEnded: {'returncode': 0}
+[8.459919] (-) TimerEvent: {}
+[8.560796] (-) TimerEvent: {}
+[8.661431] (-) TimerEvent: {}
+[8.762128] (-) TimerEvent: {}
+[8.851797] (common_dependencies) JobEnded: {'identifier': 'common_dependencies', 'rc': 0}
+[8.866008] (-) TimerEvent: {}
+[8.866735] (multi_robot_controller) CommandEnded: {'returncode': 0}
+[8.966229] (-) TimerEvent: {}
+[9.067013] (-) TimerEvent: {}
+[9.167712] (-) TimerEvent: {}
+[9.268566] (-) TimerEvent: {}
+[9.326977] (multi_robot_controller) JobEnded: {'identifier': 'multi_robot_controller', 'rc': 0}
+[9.342112] (user_interface) CommandEnded: {'returncode': 0}
+[9.368707] (-) TimerEvent: {}
+[9.469406] (-) TimerEvent: {}
+[9.570094] (-) TimerEvent: {}
+[9.670856] (-) TimerEvent: {}
+[9.771610] (-) TimerEvent: {}
+[9.799809] (user_interface) JobEnded: {'identifier': 'user_interface', 'rc': 0}
+[9.815457] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/common_dependencies/common_dependencies.egg-info
+writing ../../build/common_dependencies/common_dependencies.egg-info/PKG-INFO
+writing dependency_links to ../../build/common_dependencies/common_dependencies.egg-info/dependency_links.txt
+writing entry points to ../../build/common_dependencies/common_dependencies.egg-info/entry_points.txt
+writing requirements to ../../build/common_dependencies/common_dependencies.egg-info/requires.txt
+writing top-level names to ../../build/common_dependencies/common_dependencies.egg-info/top_level.txt
+writing manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+reading manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+writing manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /thesis_project/robotgym_ws/build/common_dependencies/build
+creating /thesis_project/robotgym_ws/build/common_dependencies/build/lib
+creating /thesis_project/robotgym_ws/build/common_dependencies/build/lib/common_dependencies
+copying common_dependencies/__init__.py -> /thesis_project/robotgym_ws/build/common_dependencies/build/lib/common_dependencies
+running install
+running install_lib
+creating /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies
+copying /thesis_project/robotgym_ws/build/common_dependencies/build/lib/common_dependencies/__init__.py -> /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies
+byte-compiling /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index
+creating /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index/resource_index
+creating /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index/resource_index/packages
+copying resource/common_dependencies -> /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index/resource_index/packages
+copying package.xml -> /thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies
+running install_egg_info
+Copying ../../build/common_dependencies/common_dependencies.egg-info to /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/thesis_project/robotgym_ws/build/common_dependencies/install.log'

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/common_dependencies/common_dependencies.egg-info/PKG-INFO
+../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt
+../../build/common_dependencies/common_dependencies.egg-info/dependency_links.txt
+../../build/common_dependencies/common_dependencies.egg-info/entry_points.txt
+../../build/common_dependencies/common_dependencies.egg-info/requires.txt
+../../build/common_dependencies/common_dependencies.egg-info/top_level.txt
+../../build/common_dependencies/common_dependencies.egg-info/zip-safe
+common_dependencies/__init__.py
+resource/common_dependencies
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

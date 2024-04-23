@@ -1,0 +1,20 @@
+[4.966s] Invoking command in '/thesis_project/robotgym_ws/src/common_dependencies': PYTHONPATH=/thesis_project/robotgym_ws/build/common_dependencies/prefix_override:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/common_dependencies build --build-base /thesis_project/robotgym_ws/build/common_dependencies/build install --record /thesis_project/robotgym_ws/build/common_dependencies/install.log --single-version-externally-managed install_data
+[6.508s] running egg_info
+[6.518s] writing ../../build/common_dependencies/common_dependencies.egg-info/PKG-INFO
+[6.531s] writing dependency_links to ../../build/common_dependencies/common_dependencies.egg-info/dependency_links.txt
+[6.545s] writing entry points to ../../build/common_dependencies/common_dependencies.egg-info/entry_points.txt
+[6.558s] writing requirements to ../../build/common_dependencies/common_dependencies.egg-info/requires.txt
+[6.566s] writing top-level names to ../../build/common_dependencies/common_dependencies.egg-info/top_level.txt
+[6.646s] reading manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+[6.790s] writing manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+[6.793s] running build
+[6.796s] running build_py
+[6.831s] running install
+[6.833s] running install_lib
+[6.959s] running install_data
+[7.013s] running install_egg_info
+[7.037s] removing '/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info' (and everything under it)
+[7.168s] Copying ../../build/common_dependencies/common_dependencies.egg-info to /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info
+[7.687s] running install_scripts
+[7.832s] writing list of installed files to '/thesis_project/robotgym_ws/build/common_dependencies/install.log'
+[8.359s] Invoked command in '/thesis_project/robotgym_ws/src/common_dependencies' returned '0': PYTHONPATH=/thesis_project/robotgym_ws/build/common_dependencies/prefix_override:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/common_dependencies build --build-base /thesis_project/robotgym_ws/build/common_dependencies/build install --record /thesis_project/robotgym_ws/build/common_dependencies/install.log --single-version-externally-managed install_data

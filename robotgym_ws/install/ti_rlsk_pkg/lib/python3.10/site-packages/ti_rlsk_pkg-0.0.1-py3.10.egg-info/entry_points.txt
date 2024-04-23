@@ -1,0 +1,5 @@
+[console_scripts]
+move_robot_action_server = ti_rlsk_pkg.move_robot_action:main
+robot_controller_template = ti_rlsk_pkg.robot_controller_template:main
+ti_rlsk_node = ti_rlsk_pkg.ti_rlsk_node:main
+

@@ -1,0 +1,274 @@
+[1.408s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.408s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f67634b4250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f67635d0910>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f67635d0910>>, mixin_verb=('build',))
+[2.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.479s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/thesis_project/robotgym_ws'
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extension 'ignore'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extension 'ignore_ament_install'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extensions ['colcon_pkg']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extension 'colcon_pkg'
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extensions ['colcon_meta']
+[2.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extension 'colcon_meta'
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extensions ['ros']
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_dependencies) by extension 'ros'
+[2.651s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common_dependencies' with type 'ros.ament_python' and name 'common_dependencies'
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extension 'ignore'
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extension 'ignore_ament_install'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extensions ['colcon_pkg']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extension 'colcon_pkg'
+[2.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extensions ['colcon_meta']
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extension 'colcon_meta'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extensions ['ros']
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_controller) by extension 'ros'
+[2.694s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_robot_controller' with type 'ros.ament_python' and name 'multi_robot_controller'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extension 'ignore'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extension 'ignore_ament_install'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extensions ['colcon_pkg']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extension 'colcon_pkg'
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extensions ['colcon_meta']
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extension 'colcon_meta'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extensions ['ros']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/ti_rlsk_pkg) by extension 'ros'
+[2.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ti_rlsk_pkg' with type 'ros.ament_python' and name 'ti_rlsk_pkg'
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ignore'
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ignore_ament_install'
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['colcon_pkg']
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'colcon_pkg'
+[2.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['colcon_meta']
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'colcon_meta'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['ros']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ros'
+[2.780s] DEBUG:colcon.colcon_core.package_identification:Package 'src/user_interface' with type 'ros.ament_python' and name 'user_interface'
+[2.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.150s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'cmake_args' from command line to 'None'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'cmake_target' from command line to 'None'
+[3.151s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'cmake_clean_cache' from command line to 'False'
+[3.152s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'cmake_clean_first' from command line to 'False'
+[3.153s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'cmake_force_configure' from command line to 'False'
+[3.153s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'ament_cmake_args' from command line to 'None'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'catkin_cmake_args' from command line to 'None'
+[3.154s] Level 5:colcon.colcon_core.verb:set package 'common_dependencies' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.155s] DEBUG:colcon.colcon_core.verb:Building package 'common_dependencies' with the following arguments: {'ament_cmake_args': None, 'build_base': '/thesis_project/robotgym_ws/build/common_dependencies', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/thesis_project/robotgym_ws/install/common_dependencies', 'merge_install': False, 'path': '/thesis_project/robotgym_ws/src/common_dependencies', 'symlink_install': False, 'test_result_base': None}
+[3.156s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'cmake_args' from command line to 'None'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'cmake_target' from command line to 'None'
+[3.157s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.158s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.158s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.159s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.160s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.160s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.160s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/thesis_project/robotgym_ws/build/multi_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/thesis_project/robotgym_ws/install/multi_robot_controller', 'merge_install': False, 'path': '/thesis_project/robotgym_ws/src/multi_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[3.161s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'cmake_args' from command line to 'None'
+[3.162s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'cmake_target' from command line to 'None'
+[3.162s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.163s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.163s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.164s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.165s] Level 5:colcon.colcon_core.verb:set package 'ti_rlsk_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.165s] DEBUG:colcon.colcon_core.verb:Building package 'ti_rlsk_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/thesis_project/robotgym_ws/build/ti_rlsk_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/thesis_project/robotgym_ws/install/ti_rlsk_pkg', 'merge_install': False, 'path': '/thesis_project/robotgym_ws/src/ti_rlsk_pkg', 'symlink_install': False, 'test_result_base': None}
+[3.166s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_args' from command line to 'None'
+[3.167s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target' from command line to 'None'
+[3.167s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.167s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[3.168s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_first' from command line to 'False'
+[3.168s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_force_configure' from command line to 'False'
+[3.168s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'ament_cmake_args' from command line to 'None'
+[3.169s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[3.169s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.170s] DEBUG:colcon.colcon_core.verb:Building package 'user_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/thesis_project/robotgym_ws/build/user_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/thesis_project/robotgym_ws/install/user_interface', 'merge_install': False, 'path': '/thesis_project/robotgym_ws/src/user_interface', 'symlink_install': False, 'test_result_base': None}
+[3.170s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.174s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/thesis_project/robotgym_ws/src/common_dependencies' with build type 'ament_python'
+[3.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_dependencies', 'ament_prefix_path')
+[3.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/hook/ament_prefix_path.ps1'
+[3.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/hook/ament_prefix_path.dsv'
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/hook/ament_prefix_path.sh'
+[3.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.514s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/thesis_project/robotgym_ws/src/multi_robot_controller' with build type 'ament_python'
+[3.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_controller', 'ament_prefix_path')
+[3.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/hook/ament_prefix_path.ps1'
+[3.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/hook/ament_prefix_path.dsv'
+[3.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/hook/ament_prefix_path.sh'
+[3.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.793s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg' with build type 'ament_python'
+[3.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_rlsk_pkg', 'ament_prefix_path')
+[3.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/hook/ament_prefix_path.ps1'
+[3.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/hook/ament_prefix_path.dsv'
+[3.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/hook/ament_prefix_path.sh'
+[3.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.056s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/thesis_project/robotgym_ws/src/user_interface' with build type 'ament_python'
+[4.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'ament_prefix_path')
+[4.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/hook/ament_prefix_path.ps1'
+[4.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/hook/ament_prefix_path.dsv'
+[4.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/hook/ament_prefix_path.sh'
+[4.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.756s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/thesis_project/robotgym_ws/src/common_dependencies'
+[7.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.184s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/thesis_project/robotgym_ws/src/multi_robot_controller'
+[11.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.692s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg'
+[14.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.046s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/thesis_project/robotgym_ws/src/user_interface'
+[18.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/robotgym_ws/src/common_dependencies': PYTHONPATH=/thesis_project/robotgym_ws/build/common_dependencies/prefix_override:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/common_dependencies build --build-base /thesis_project/robotgym_ws/build/common_dependencies/build install --record /thesis_project/robotgym_ws/build/common_dependencies/install.log --single-version-externally-managed install_data
+[21.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/robotgym_ws/src/user_interface': PYTHONPATH=/thesis_project/robotgym_ws/build/user_interface/prefix_override:/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/user_interface build --build-base /thesis_project/robotgym_ws/build/user_interface/build install --record /thesis_project/robotgym_ws/build/user_interface/install.log --single-version-externally-managed install_data
+[22.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data
+[22.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/thesis_project/robotgym_ws/src/multi_robot_controller': PYTHONPATH=/thesis_project/robotgym_ws/build/multi_robot_controller/prefix_override:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multi_robot_controller build --build-base /thesis_project/robotgym_ws/build/multi_robot_controller/build install --record /thesis_project/robotgym_ws/build/multi_robot_controller/install.log --single-version-externally-managed install_data
+[26.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/robotgym_ws/src/common_dependencies' returned '0': PYTHONPATH=/thesis_project/robotgym_ws/build/common_dependencies/prefix_override:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/common_dependencies build --build-base /thesis_project/robotgym_ws/build/common_dependencies/build install --record /thesis_project/robotgym_ws/build/common_dependencies/install.log --single-version-externally-managed install_data
+[26.420s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/common_dependencies' for CMake module files
+[26.499s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/common_dependencies' for CMake config files
+[26.660s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/common_dependencies/lib'
+[26.667s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/common_dependencies/bin'
+[26.670s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/common_dependencies/lib/pkgconfig/common_dependencies.pc'
+[26.673s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages'
+[26.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_dependencies', 'pythonpath')
+[26.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/hook/pythonpath.ps1'
+[26.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/hook/pythonpath.dsv'
+[26.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/hook/pythonpath.sh'
+[26.777s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/common_dependencies/bin'
+[26.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_dependencies)
+[26.781s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/package.ps1'
+[26.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/package.dsv'
+[26.839s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/package.sh'
+[26.869s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/package.bash'
+[26.899s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies/package.zsh'
+[26.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/robotgym_ws/install/common_dependencies/share/colcon-core/packages/common_dependencies)
+[26.951s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/user_interface' for CMake module files
+[26.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/robotgym_ws/src/user_interface' returned '0': PYTHONPATH=/thesis_project/robotgym_ws/build/user_interface/prefix_override:/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/user_interface build --build-base /thesis_project/robotgym_ws/build/user_interface/build install --record /thesis_project/robotgym_ws/build/user_interface/install.log --single-version-externally-managed install_data
+[27.069s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/user_interface' for CMake config files
+[27.244s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/user_interface/lib'
+[27.252s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/user_interface/bin'
+[27.254s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/user_interface/lib/pkgconfig/user_interface.pc'
+[27.257s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages'
+[27.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'pythonpath')
+[27.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/hook/pythonpath.ps1'
+[27.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/hook/pythonpath.dsv'
+[27.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/hook/pythonpath.sh'
+[27.349s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/user_interface/bin'
+[27.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_interface)
+[27.353s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/package.ps1'
+[27.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/package.dsv'
+[27.399s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/package.sh'
+[27.427s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/package.bash'
+[27.455s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/user_interface/share/user_interface/package.zsh'
+[27.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/robotgym_ws/install/user_interface/share/colcon-core/packages/user_interface)
+[27.495s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/ti_rlsk_pkg' for CMake module files
+[27.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg' returned '0': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data
+[27.629s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/ti_rlsk_pkg' for CMake config files
+[27.874s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib'
+[27.884s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/bin'
+[27.886s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/pkgconfig/ti_rlsk_pkg.pc'
+[27.889s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages'
+[27.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_rlsk_pkg', 'pythonpath')
+[27.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/hook/pythonpath.ps1'
+[27.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/hook/pythonpath.dsv'
+[27.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/hook/pythonpath.sh'
+[27.976s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/bin'
+[27.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ti_rlsk_pkg)
+[27.979s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/package.ps1'
+[27.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/package.dsv'
+[28.018s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/package.sh'
+[28.045s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/package.bash'
+[28.075s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/package.zsh'
+[28.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/colcon-core/packages/ti_rlsk_pkg)
+[28.115s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/multi_robot_controller' for CMake module files
+[28.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/thesis_project/robotgym_ws/src/multi_robot_controller' returned '0': PYTHONPATH=/thesis_project/robotgym_ws/build/multi_robot_controller/prefix_override:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multi_robot_controller build --build-base /thesis_project/robotgym_ws/build/multi_robot_controller/build install --record /thesis_project/robotgym_ws/build/multi_robot_controller/install.log --single-version-externally-managed install_data
+[28.235s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/multi_robot_controller' for CMake config files
+[28.419s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/multi_robot_controller/lib'
+[28.428s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/multi_robot_controller/bin'
+[28.431s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/multi_robot_controller/lib/pkgconfig/multi_robot_controller.pc'
+[28.436s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages'
+[28.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_controller', 'pythonpath')
+[28.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/hook/pythonpath.ps1'
+[28.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/hook/pythonpath.dsv'
+[28.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/hook/pythonpath.sh'
+[28.531s] Level 1:colcon.colcon_core.environment:checking '/thesis_project/robotgym_ws/install/multi_robot_controller/bin'
+[28.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_controller)
+[28.535s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/package.ps1'
+[28.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/package.dsv'
+[28.588s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/package.sh'
+[28.612s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/package.bash'
+[28.636s] INFO:colcon.colcon_core.shell:Creating package script '/thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller/package.zsh'
+[28.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/thesis_project/robotgym_ws/install/multi_robot_controller/share/colcon-core/packages/multi_robot_controller)
+[28.689s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.691s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[28.793s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.793s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.794s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.802s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[28.803s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/robotgym_ws/install/local_setup.ps1'
+[28.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/thesis_project/robotgym_ws/install/_local_setup_util_ps1.py'
+[28.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/robotgym_ws/install/setup.ps1'
+[28.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/robotgym_ws/install/local_setup.sh'
+[28.909s] INFO:colcon.colcon_core.shell:Creating prefix util module '/thesis_project/robotgym_ws/install/_local_setup_util_sh.py'
+[28.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/robotgym_ws/install/setup.sh'
+[28.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/robotgym_ws/install/local_setup.bash'
+[28.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/robotgym_ws/install/setup.bash'
+[29.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/thesis_project/robotgym_ws/install/local_setup.zsh'
+[29.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/thesis_project/robotgym_ws/install/setup.zsh'

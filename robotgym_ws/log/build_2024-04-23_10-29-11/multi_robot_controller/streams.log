@@ -1,0 +1,20 @@
+[4.831s] Invoking command in '/thesis_project/robotgym_ws/src/multi_robot_controller': PYTHONPATH=/thesis_project/robotgym_ws/build/multi_robot_controller/prefix_override:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multi_robot_controller build --build-base /thesis_project/robotgym_ws/build/multi_robot_controller/build install --record /thesis_project/robotgym_ws/build/multi_robot_controller/install.log --single-version-externally-managed install_data
+[6.387s] running egg_info
+[6.396s] writing ../../build/multi_robot_controller/multi_robot_controller.egg-info/PKG-INFO
+[6.414s] writing dependency_links to ../../build/multi_robot_controller/multi_robot_controller.egg-info/dependency_links.txt
+[6.423s] writing entry points to ../../build/multi_robot_controller/multi_robot_controller.egg-info/entry_points.txt
+[6.432s] writing requirements to ../../build/multi_robot_controller/multi_robot_controller.egg-info/requires.txt
+[6.440s] writing top-level names to ../../build/multi_robot_controller/multi_robot_controller.egg-info/top_level.txt
+[6.515s] reading manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'
+[6.657s] writing manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'
+[6.663s] running build
+[6.665s] running build_py
+[6.701s] running install
+[6.703s] running install_lib
+[6.826s] running install_data
+[6.882s] running install_egg_info
+[6.906s] removing '/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[7.035s] Copying ../../build/multi_robot_controller/multi_robot_controller.egg-info to /thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller-0.0.0-py3.10.egg-info
+[7.549s] running install_scripts
+[7.698s] writing list of installed files to '/thesis_project/robotgym_ws/build/multi_robot_controller/install.log'
+[8.680s] Invoked command in '/thesis_project/robotgym_ws/src/multi_robot_controller' returned '0': PYTHONPATH=/thesis_project/robotgym_ws/build/multi_robot_controller/prefix_override:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multi_robot_controller build --build-base /thesis_project/robotgym_ws/build/multi_robot_controller/build install --record /thesis_project/robotgym_ws/build/multi_robot_controller/install.log --single-version-externally-managed install_data

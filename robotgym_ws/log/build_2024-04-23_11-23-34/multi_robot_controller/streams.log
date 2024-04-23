@@ -1,0 +1,19 @@
+[19.585s] Invoking command in '/thesis_project/robotgym_ws/src/multi_robot_controller': PYTHONPATH=/thesis_project/robotgym_ws/build/multi_robot_controller/prefix_override:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multi_robot_controller build --build-base /thesis_project/robotgym_ws/build/multi_robot_controller/build install --record /thesis_project/robotgym_ws/build/multi_robot_controller/install.log --single-version-externally-managed install_data
+[22.571s] running egg_info
+[22.584s] writing ../../build/multi_robot_controller/multi_robot_controller.egg-info/PKG-INFO
+[22.611s] writing dependency_links to ../../build/multi_robot_controller/multi_robot_controller.egg-info/dependency_links.txt
+[22.619s] writing entry points to ../../build/multi_robot_controller/multi_robot_controller.egg-info/entry_points.txt
+[22.628s] writing requirements to ../../build/multi_robot_controller/multi_robot_controller.egg-info/requires.txt
+[22.636s] writing top-level names to ../../build/multi_robot_controller/multi_robot_controller.egg-info/top_level.txt
+[22.714s] reading manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'
+[22.846s] writing manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'
+[22.854s] running build
+[22.857s] running build_py
+[22.890s] running install
+[22.892s] running install_lib
+[23.016s] running install_data
+[23.077s] running install_egg_info
+[23.109s] removing '/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[23.246s] Copying ../../build/multi_robot_controller/multi_robot_controller.egg-info to /thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller-0.0.0-py3.10.egg-info
+[23.762s] running install_scripts
+[24.030s] writing list of installed files to '/thesis_project/robotgym_ws/build/multi_robot_controller/install.log'

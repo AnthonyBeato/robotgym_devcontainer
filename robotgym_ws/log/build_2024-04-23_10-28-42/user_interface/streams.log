@@ -1,0 +1,32 @@
+[4.689s] Invoking command in '/thesis_project/robotgym_ws/src/user_interface': PYTHONPATH=/thesis_project/robotgym_ws/build/user_interface/prefix_override:/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/user_interface build --build-base /thesis_project/robotgym_ws/build/user_interface/build install --record /thesis_project/robotgym_ws/build/user_interface/install.log --single-version-externally-managed install_data
+[6.047s] running egg_info
+[6.056s] creating ../../build/user_interface/user_interface.egg-info
+[6.060s] writing ../../build/user_interface/user_interface.egg-info/PKG-INFO
+[6.080s] writing dependency_links to ../../build/user_interface/user_interface.egg-info/dependency_links.txt
+[6.092s] writing entry points to ../../build/user_interface/user_interface.egg-info/entry_points.txt
+[6.101s] writing requirements to ../../build/user_interface/user_interface.egg-info/requires.txt
+[6.106s] writing top-level names to ../../build/user_interface/user_interface.egg-info/top_level.txt
+[6.119s] writing manifest file '../../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[6.186s] reading manifest file '../../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[6.301s] writing manifest file '../../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[6.304s] running build
+[6.306s] running build_py
+[6.314s] creating /thesis_project/robotgym_ws/build/user_interface/build
+[6.318s] creating /thesis_project/robotgym_ws/build/user_interface/build/lib
+[6.322s] creating /thesis_project/robotgym_ws/build/user_interface/build/lib/user_interface
+[6.345s] copying user_interface/__init__.py -> /thesis_project/robotgym_ws/build/user_interface/build/lib/user_interface
+[6.376s] running install
+[6.378s] running install_lib
+[6.426s] creating /thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface
+[6.461s] copying /thesis_project/robotgym_ws/build/user_interface/build/lib/user_interface/__init__.py -> /thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface
+[6.530s] byte-compiling /thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface/__init__.py to __init__.cpython-310.pyc
+[6.603s] running install_data
+[6.622s] creating /thesis_project/robotgym_ws/install/user_interface/share/ament_index
+[6.624s] creating /thesis_project/robotgym_ws/install/user_interface/share/ament_index/resource_index
+[6.627s] creating /thesis_project/robotgym_ws/install/user_interface/share/ament_index/resource_index/packages
+[6.650s] copying resource/user_interface -> /thesis_project/robotgym_ws/install/user_interface/share/ament_index/resource_index/packages
+[6.701s] copying package.xml -> /thesis_project/robotgym_ws/install/user_interface/share/user_interface
+[6.731s] running install_egg_info
+[6.768s] Copying ../../build/user_interface/user_interface.egg-info to /thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface-0.0.0-py3.10.egg-info
+[7.258s] running install_scripts
+[7.395s] writing list of installed files to '/thesis_project/robotgym_ws/build/user_interface/install.log'

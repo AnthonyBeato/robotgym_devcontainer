@@ -1,0 +1,32 @@
+[5.208s] Invoking command in '/thesis_project/robotgym_ws/src/common_dependencies': PYTHONPATH=/thesis_project/robotgym_ws/build/common_dependencies/prefix_override:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/common_dependencies build --build-base /thesis_project/robotgym_ws/build/common_dependencies/build install --record /thesis_project/robotgym_ws/build/common_dependencies/install.log --single-version-externally-managed install_data
+[6.596s] running egg_info
+[6.600s] creating ../../build/common_dependencies/common_dependencies.egg-info
+[6.606s] writing ../../build/common_dependencies/common_dependencies.egg-info/PKG-INFO
+[6.624s] writing dependency_links to ../../build/common_dependencies/common_dependencies.egg-info/dependency_links.txt
+[6.636s] writing entry points to ../../build/common_dependencies/common_dependencies.egg-info/entry_points.txt
+[6.647s] writing requirements to ../../build/common_dependencies/common_dependencies.egg-info/requires.txt
+[6.653s] writing top-level names to ../../build/common_dependencies/common_dependencies.egg-info/top_level.txt
+[6.665s] writing manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+[6.731s] reading manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+[6.836s] writing manifest file '../../build/common_dependencies/common_dependencies.egg-info/SOURCES.txt'
+[6.843s] running build
+[6.844s] running build_py
+[6.857s] creating /thesis_project/robotgym_ws/build/common_dependencies/build
+[6.862s] creating /thesis_project/robotgym_ws/build/common_dependencies/build/lib
+[6.865s] creating /thesis_project/robotgym_ws/build/common_dependencies/build/lib/common_dependencies
+[6.883s] copying common_dependencies/__init__.py -> /thesis_project/robotgym_ws/build/common_dependencies/build/lib/common_dependencies
+[6.917s] running install
+[6.919s] running install_lib
+[6.965s] creating /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies
+[7.003s] copying /thesis_project/robotgym_ws/build/common_dependencies/build/lib/common_dependencies/__init__.py -> /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies
+[7.071s] byte-compiling /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies/__init__.py to __init__.cpython-310.pyc
+[7.154s] running install_data
+[7.169s] creating /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index
+[7.176s] creating /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index/resource_index
+[7.182s] creating /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index/resource_index/packages
+[7.204s] copying resource/common_dependencies -> /thesis_project/robotgym_ws/install/common_dependencies/share/ament_index/resource_index/packages
+[7.254s] copying package.xml -> /thesis_project/robotgym_ws/install/common_dependencies/share/common_dependencies
+[7.281s] running install_egg_info
+[7.317s] Copying ../../build/common_dependencies/common_dependencies.egg-info to /thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages/common_dependencies-0.0.0-py3.10.egg-info
+[7.801s] running install_scripts
+[7.933s] writing list of installed files to '/thesis_project/robotgym_ws/build/common_dependencies/install.log'

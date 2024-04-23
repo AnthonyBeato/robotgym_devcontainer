@@ -1,0 +1,258 @@
+[0.000000] (-) TimerEvent: {}
+[0.001063] (-) JobUnselected: {'identifier': 'common_dependencies'}
+[0.001462] (-) JobUnselected: {'identifier': 'multi_robot_controller'}
+[0.001920] (-) JobUnselected: {'identifier': 'user_interface'}
+[0.002289] (ti_rlsk_pkg) JobQueued: {'identifier': 'ti_rlsk_pkg', 'dependencies': OrderedDict()}
+[0.002693] (ti_rlsk_pkg) JobStarted: {'identifier': 'ti_rlsk_pkg'}
+[0.096444] (-) TimerEvent: {}
+[0.197287] (-) TimerEvent: {}
+[0.298221] (-) TimerEvent: {}
+[0.398972] (-) TimerEvent: {}
+[0.499687] (-) TimerEvent: {}
+[0.600734] (-) TimerEvent: {}
+[0.702091] (-) TimerEvent: {}
+[0.803745] (-) TimerEvent: {}
+[0.905215] (-) TimerEvent: {}
+[1.006336] (-) TimerEvent: {}
+[1.107194] (-) TimerEvent: {}
+[1.208061] (-) TimerEvent: {}
+[1.308845] (-) TimerEvent: {}
+[1.409679] (-) TimerEvent: {}
+[1.510626] (-) TimerEvent: {}
+[1.611471] (-) TimerEvent: {}
+[1.712263] (-) TimerEvent: {}
+[1.813306] (-) TimerEvent: {}
+[1.914256] (-) TimerEvent: {}
+[2.015064] (-) TimerEvent: {}
+[2.115894] (-) TimerEvent: {}
+[2.216844] (-) TimerEvent: {}
+[2.317587] (-) TimerEvent: {}
+[2.418431] (-) TimerEvent: {}
+[2.519286] (-) TimerEvent: {}
+[2.620308] (-) TimerEvent: {}
+[2.721422] (-) TimerEvent: {}
+[2.822157] (-) TimerEvent: {}
+[2.923541] (-) TimerEvent: {}
+[3.024346] (-) TimerEvent: {}
+[3.125132] (-) TimerEvent: {}
+[3.226075] (-) TimerEvent: {}
+[3.326949] (-) TimerEvent: {}
+[3.427748] (-) TimerEvent: {}
+[3.528591] (-) TimerEvent: {}
+[3.629537] (-) TimerEvent: {}
+[3.730328] (-) TimerEvent: {}
+[3.831091] (-) TimerEvent: {}
+[3.932039] (-) TimerEvent: {}
+[4.032816] (-) TimerEvent: {}
+[4.133623] (-) TimerEvent: {}
+[4.234430] (-) TimerEvent: {}
+[4.336182] (-) TimerEvent: {}
+[4.437011] (-) TimerEvent: {}
+[4.537838] (-) TimerEvent: {}
+[4.638756] (-) TimerEvent: {}
+[4.739764] (-) TimerEvent: {}
+[4.840581] (-) TimerEvent: {}
+[4.941530] (-) TimerEvent: {}
+[5.042365] (-) TimerEvent: {}
+[5.143111] (-) TimerEvent: {}
+[5.244065] (-) TimerEvent: {}
+[5.344846] (-) TimerEvent: {}
+[5.445678] (-) TimerEvent: {}
+[5.546463] (-) TimerEvent: {}
+[5.647284] (-) TimerEvent: {}
+[5.748248] (-) TimerEvent: {}
+[5.849077] (-) TimerEvent: {}
+[5.950034] (-) TimerEvent: {}
+[6.050941] (-) TimerEvent: {}
+[6.151961] (-) TimerEvent: {}
+[6.253231] (-) TimerEvent: {}
+[6.354695] (-) TimerEvent: {}
+[6.455561] (-) TimerEvent: {}
+[6.556307] (-) TimerEvent: {}
+[6.657668] (-) TimerEvent: {}
+[6.758453] (-) TimerEvent: {}
+[6.859364] (-) TimerEvent: {}
+[6.960263] (-) TimerEvent: {}
+[7.061097] (-) TimerEvent: {}
+[7.161886] (-) TimerEvent: {}
+[7.262728] (-) TimerEvent: {}
+[7.363474] (-) TimerEvent: {}
+[7.464502] (-) TimerEvent: {}
+[7.565331] (-) TimerEvent: {}
+[7.666554] (-) TimerEvent: {}
+[7.768651] (-) TimerEvent: {}
+[7.869617] (-) TimerEvent: {}
+[7.970719] (-) TimerEvent: {}
+[8.071511] (-) TimerEvent: {}
+[8.172560] (-) TimerEvent: {}
+[8.273263] (-) TimerEvent: {}
+[8.374143] (-) TimerEvent: {}
+[8.475069] (-) TimerEvent: {}
+[8.575942] (-) TimerEvent: {}
+[8.676734] (-) TimerEvent: {}
+[8.777527] (-) TimerEvent: {}
+[8.878272] (-) TimerEvent: {}
+[8.979089] (-) TimerEvent: {}
+[9.079832] (-) TimerEvent: {}
+[9.180625] (-) TimerEvent: {}
+[9.281438] (-) TimerEvent: {}
+[9.382419] (-) TimerEvent: {}
+[9.483557] (-) TimerEvent: {}
+[9.584400] (-) TimerEvent: {}
+[9.685445] (-) TimerEvent: {}
+[9.786221] (-) TimerEvent: {}
+[9.887284] (-) TimerEvent: {}
+[9.995169] (-) TimerEvent: {}
+[10.098410] (-) TimerEvent: {}
+[10.256460] (-) TimerEvent: {}
+[10.294495] (ti_rlsk_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ti_rlsk_pkg', 'build', '--build-base', '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/build', 'install', '--record', '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/thesis_project/robotgym_ws/src/ti_rlsk_pkg', 'env': {'HOSTNAME': '65b53883f601', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/home/vscode', 'OLDPWD': '/thesis_project/robotgym_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2507b9d7-1029-4a87-bafd-3accb6e280c2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/thesis_project/robotgym_ws/install', 'ROS_DISTRO': 'iron', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8b83ef29-4af8-4063-8c72-b300acb87fdc.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-44eedfd7df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/thesis_project/robotgym_ws/install/user_interface:/thesis_project/robotgym_ws/install/ti_rlsk_pkg:/thesis_project/robotgym_ws/install/multi_robot_controller:/thesis_project/robotgym_ws/install/common_dependencies:/opt/ros/iron', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/thesis_project/robotgym_ws/build/ti_rlsk_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:/thesis_project/robotgym_ws/install/common_dependencies/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[10.356645] (-) TimerEvent: {}
+[10.458582] (-) TimerEvent: {}
+[10.559510] (-) TimerEvent: {}
+[10.661028] (-) TimerEvent: {}
+[10.785703] (-) TimerEvent: {}
+[10.896548] (-) TimerEvent: {}
+[11.057748] (-) TimerEvent: {}
+[11.256430] (-) TimerEvent: {}
+[11.369482] (-) TimerEvent: {}
+[11.526975] (-) TimerEvent: {}
+[11.649923] (-) TimerEvent: {}
+[11.789571] (-) TimerEvent: {}
+[11.898865] (-) TimerEvent: {}
+[12.080421] (-) TimerEvent: {}
+[12.235166] (-) TimerEvent: {}
+[12.347014] (-) TimerEvent: {}
+[12.456897] (-) TimerEvent: {}
+[12.606020] (-) TimerEvent: {}
+[12.712503] (-) TimerEvent: {}
+[12.838887] (-) TimerEvent: {}
+[12.981477] (-) TimerEvent: {}
+[13.136973] (-) TimerEvent: {}
+[13.267276] (-) TimerEvent: {}
+[13.378305] (-) TimerEvent: {}
+[13.516907] (-) TimerEvent: {}
+[13.648030] (-) TimerEvent: {}
+[13.776635] (-) TimerEvent: {}
+[13.902140] (-) TimerEvent: {}
+[14.003759] (-) TimerEvent: {}
+[14.179695] (-) TimerEvent: {}
+[14.281618] (-) TimerEvent: {}
+[14.412876] (-) TimerEvent: {}
+[14.523468] (-) TimerEvent: {}
+[14.628463] (-) TimerEvent: {}
+[14.737085] (-) TimerEvent: {}
+[14.845182] (-) TimerEvent: {}
+[14.963461] (-) TimerEvent: {}
+[15.135481] (-) TimerEvent: {}
+[15.281303] (-) TimerEvent: {}
+[15.416847] (-) TimerEvent: {}
+[15.519170] (-) TimerEvent: {}
+[15.700063] (-) TimerEvent: {}
+[15.810248] (-) TimerEvent: {}
+[15.927774] (-) TimerEvent: {}
+[16.048749] (-) TimerEvent: {}
+[16.184739] (-) TimerEvent: {}
+[16.313979] (-) TimerEvent: {}
+[16.442551] (-) TimerEvent: {}
+[16.551605] (-) TimerEvent: {}
+[16.679086] (-) TimerEvent: {}
+[16.804277] (-) TimerEvent: {}
+[16.908013] (-) TimerEvent: {}
+[17.034112] (-) TimerEvent: {}
+[17.159886] (-) TimerEvent: {}
+[17.261679] (-) TimerEvent: {}
+[17.364789] (-) TimerEvent: {}
+[17.466362] (-) TimerEvent: {}
+[17.567349] (-) TimerEvent: {}
+[17.669588] (-) TimerEvent: {}
+[17.771731] (-) TimerEvent: {}
+[17.872614] (-) TimerEvent: {}
+[17.973397] (-) TimerEvent: {}
+[18.074299] (-) TimerEvent: {}
+[18.175135] (-) TimerEvent: {}
+[18.276171] (-) TimerEvent: {}
+[18.376972] (-) TimerEvent: {}
+[18.477995] (-) TimerEvent: {}
+[18.578791] (-) TimerEvent: {}
+[18.679539] (-) TimerEvent: {}
+[18.780494] (-) TimerEvent: {}
+[18.881311] (-) TimerEvent: {}
+[18.982271] (-) TimerEvent: {}
+[19.083277] (-) TimerEvent: {}
+[19.184091] (-) TimerEvent: {}
+[19.284964] (-) TimerEvent: {}
+[19.386259] (-) TimerEvent: {}
+[19.488095] (-) TimerEvent: {}
+[19.589514] (-) TimerEvent: {}
+[19.693704] (-) TimerEvent: {}
+[19.794574] (-) TimerEvent: {}
+[19.895364] (-) TimerEvent: {}
+[19.996046] (-) TimerEvent: {}
+[20.096892] (-) TimerEvent: {}
+[20.197619] (-) TimerEvent: {}
+[20.298577] (-) TimerEvent: {}
+[20.399650] (-) TimerEvent: {}
+[20.501081] (-) TimerEvent: {}
+[20.601873] (-) TimerEvent: {}
+[20.703113] (-) TimerEvent: {}
+[20.804538] (-) TimerEvent: {}
+[20.905825] (-) TimerEvent: {}
+[20.958634] (ti_rlsk_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[20.974936] (ti_rlsk_pkg) StdoutLine: {'line': b'writing ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/PKG-INFO\n'}
+[20.994707] (ti_rlsk_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/dependency_links.txt\n'}
+[21.006011] (-) TimerEvent: {}
+[21.009822] (ti_rlsk_pkg) StdoutLine: {'line': b'writing entry points to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/entry_points.txt\n'}
+[21.028122] (ti_rlsk_pkg) StdoutLine: {'line': b'writing requirements to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/requires.txt\n'}
+[21.039734] (ti_rlsk_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/top_level.txt\n'}
+[21.106165] (-) TimerEvent: {}
+[21.157908] (ti_rlsk_pkg) StdoutLine: {'line': b"reading manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'\n"}
+[21.206364] (-) TimerEvent: {}
+[21.307469] (-) TimerEvent: {}
+[21.344907] (ti_rlsk_pkg) StdoutLine: {'line': b"writing manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'\n"}
+[21.353295] (ti_rlsk_pkg) StdoutLine: {'line': b'running build\n'}
+[21.355710] (ti_rlsk_pkg) StdoutLine: {'line': b'running build_py\n'}
+[21.407615] (-) TimerEvent: {}
+[21.508550] (-) TimerEvent: {}
+[21.560781] (ti_rlsk_pkg) StdoutLine: {'line': b'running install\n'}
+[21.562807] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[21.608739] (-) TimerEvent: {}
+[21.709573] (-) TimerEvent: {}
+[21.813414] (-) TimerEvent: {}
+[21.914492] (-) TimerEvent: {}
+[22.015595] (-) TimerEvent: {}
+[22.116502] (-) TimerEvent: {}
+[22.125431] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_data\n'}
+[22.189801] (ti_rlsk_pkg) StdoutLine: {'line': b'copying package.xml -> /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg\n'}
+[22.217119] (-) TimerEvent: {}
+[22.296491] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.317320] (-) TimerEvent: {}
+[22.355678] (ti_rlsk_pkg) StdoutLine: {'line': b"removing '/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages/ti_rlsk_pkg-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[22.417489] (-) TimerEvent: {}
+[22.478289] (ti_rlsk_pkg) StdoutLine: {'line': b'Copying ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info to /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages/ti_rlsk_pkg-0.0.1-py3.10.egg-info\n'}
+[22.517783] (-) TimerEvent: {}
+[22.618655] (-) TimerEvent: {}
+[22.720038] (-) TimerEvent: {}
+[22.821396] (-) TimerEvent: {}
+[22.922196] (-) TimerEvent: {}
+[23.023041] (-) TimerEvent: {}
+[23.124018] (-) TimerEvent: {}
+[23.135050] (ti_rlsk_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[23.224239] (-) TimerEvent: {}
+[23.325141] (-) TimerEvent: {}
+[23.425942] (-) TimerEvent: {}
+[23.526390] (ti_rlsk_pkg) StdoutLine: {'line': b'Installing move_robot_action_server script to /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/ti_rlsk_pkg\n'}
+[23.527818] (-) TimerEvent: {}
+[23.552362] (ti_rlsk_pkg) StdoutLine: {'line': b'Installing ti_rlsk_node script to /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/ti_rlsk_pkg\n'}
+[23.580677] (ti_rlsk_pkg) StdoutLine: {'line': b"writing list of installed files to '/thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log'\n"}
+[23.628033] (-) TimerEvent: {}
+[23.640119] (ti_rlsk_pkg) CommandEnded: {'returncode': 0}
+[23.728232] (-) TimerEvent: {}
+[23.829167] (-) TimerEvent: {}
+[23.930082] (-) TimerEvent: {}
+[24.030960] (-) TimerEvent: {}
+[24.131935] (-) TimerEvent: {}
+[24.232783] (-) TimerEvent: {}
+[24.334337] (-) TimerEvent: {}
+[24.435431] (-) TimerEvent: {}
+[24.472656] (ti_rlsk_pkg) JobEnded: {'identifier': 'ti_rlsk_pkg', 'rc': 0}
+[24.494584] (-) EventReactorShutdown: {}

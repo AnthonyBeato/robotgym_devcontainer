@@ -1,0 +1,32 @@
+[4.970s] Invoking command in '/thesis_project/robotgym_ws/src/multi_robot_controller': PYTHONPATH=/thesis_project/robotgym_ws/build/multi_robot_controller/prefix_override:/thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/multi_robot_controller build --build-base /thesis_project/robotgym_ws/build/multi_robot_controller/build install --record /thesis_project/robotgym_ws/build/multi_robot_controller/install.log --single-version-externally-managed install_data
+[6.369s] running egg_info
+[6.380s] creating ../../build/multi_robot_controller/multi_robot_controller.egg-info
+[6.388s] writing ../../build/multi_robot_controller/multi_robot_controller.egg-info/PKG-INFO
+[6.418s] writing dependency_links to ../../build/multi_robot_controller/multi_robot_controller.egg-info/dependency_links.txt
+[6.431s] writing entry points to ../../build/multi_robot_controller/multi_robot_controller.egg-info/entry_points.txt
+[6.441s] writing requirements to ../../build/multi_robot_controller/multi_robot_controller.egg-info/requires.txt
+[6.446s] writing top-level names to ../../build/multi_robot_controller/multi_robot_controller.egg-info/top_level.txt
+[6.459s] writing manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'
+[6.527s] reading manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'
+[6.632s] writing manifest file '../../build/multi_robot_controller/multi_robot_controller.egg-info/SOURCES.txt'
+[6.638s] running build
+[6.640s] running build_py
+[6.649s] creating /thesis_project/robotgym_ws/build/multi_robot_controller/build
+[6.665s] creating /thesis_project/robotgym_ws/build/multi_robot_controller/build/lib
+[6.670s] creating /thesis_project/robotgym_ws/build/multi_robot_controller/build/lib/multi_robot_controller
+[6.689s] copying multi_robot_controller/__init__.py -> /thesis_project/robotgym_ws/build/multi_robot_controller/build/lib/multi_robot_controller
+[6.723s] running install
+[6.725s] running install_lib
+[6.774s] creating /thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller
+[6.813s] copying /thesis_project/robotgym_ws/build/multi_robot_controller/build/lib/multi_robot_controller/__init__.py -> /thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller
+[6.883s] byte-compiling /thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller/__init__.py to __init__.cpython-310.pyc
+[6.964s] running install_data
+[6.977s] creating /thesis_project/robotgym_ws/install/multi_robot_controller/share/ament_index
+[6.986s] creating /thesis_project/robotgym_ws/install/multi_robot_controller/share/ament_index/resource_index
+[6.992s] creating /thesis_project/robotgym_ws/install/multi_robot_controller/share/ament_index/resource_index/packages
+[7.016s] copying resource/multi_robot_controller -> /thesis_project/robotgym_ws/install/multi_robot_controller/share/ament_index/resource_index/packages
+[7.066s] copying package.xml -> /thesis_project/robotgym_ws/install/multi_robot_controller/share/multi_robot_controller
+[7.094s] running install_egg_info
+[7.133s] Copying ../../build/multi_robot_controller/multi_robot_controller.egg-info to /thesis_project/robotgym_ws/install/multi_robot_controller/lib/python3.10/site-packages/multi_robot_controller-0.0.0-py3.10.egg-info
+[7.617s] running install_scripts
+[7.749s] writing list of installed files to '/thesis_project/robotgym_ws/build/multi_robot_controller/install.log'

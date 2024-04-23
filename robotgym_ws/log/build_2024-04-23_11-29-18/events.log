@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000757] (common_dependencies) JobQueued: {'identifier': 'common_dependencies', 'dependencies': OrderedDict()}
+[0.001076] (multi_robot_controller) JobQueued: {'identifier': 'multi_robot_controller', 'dependencies': OrderedDict()}
+[0.001536] (ti_rlsk_pkg) JobQueued: {'identifier': 'ti_rlsk_pkg', 'dependencies': OrderedDict()}
+[0.001972] (user_interface) JobQueued: {'identifier': 'user_interface', 'dependencies': OrderedDict()}
+[0.002423] (common_dependencies) JobStarted: {'identifier': 'common_dependencies'}
+[0.096794] (-) TimerEvent: {}
+[0.197523] (-) TimerEvent: {}
+[0.284717] (multi_robot_controller) JobStarted: {'identifier': 'multi_robot_controller'}
+[0.297715] (-) TimerEvent: {}
+[0.398517] (-) TimerEvent: {}
+[0.499377] (-) TimerEvent: {}
+[0.545276] (ti_rlsk_pkg) JobStarted: {'identifier': 'ti_rlsk_pkg'}
+[0.599598] (-) TimerEvent: {}
+[0.700324] (-) TimerEvent: {}
+[0.800997] (-) TimerEvent: {}
+[0.804812] (user_interface) JobStarted: {'identifier': 'user_interface'}
+[0.901177] (-) TimerEvent: {}
+[1.002000] (-) TimerEvent: {}
+[1.102714] (-) TimerEvent: {}
+[1.203415] (-) TimerEvent: {}
+[1.304265] (-) TimerEvent: {}
+[1.405166] (-) TimerEvent: {}
+[1.505819] (-) TimerEvent: {}
+[1.606713] (-) TimerEvent: {}
+[1.707653] (-) TimerEvent: {}
+[1.808438] (-) TimerEvent: {}
+[1.909284] (-) TimerEvent: {}
+[2.010043] (-) TimerEvent: {}
+[2.110746] (-) TimerEvent: {}
+[2.211507] (-) TimerEvent: {}
+[2.312237] (-) TimerEvent: {}
+[2.413067] (-) TimerEvent: {}
+[2.513796] (-) TimerEvent: {}
+[2.614529] (-) TimerEvent: {}
+[2.715301] (-) TimerEvent: {}
+[2.816019] (-) TimerEvent: {}
+[2.916668] (-) TimerEvent: {}
+[3.017479] (-) TimerEvent: {}
+[3.118412] (-) TimerEvent: {}
+[3.219362] (-) TimerEvent: {}
+[3.320246] (-) TimerEvent: {}
+[3.421049] (-) TimerEvent: {}
+[3.522022] (-) TimerEvent: {}
+[3.622818] (-) TimerEvent: {}
+[3.723670] (-) TimerEvent: {}
+[3.824510] (-) TimerEvent: {}
+[3.925347] (-) TimerEvent: {}
+[4.026081] (-) TimerEvent: {}
+[4.126962] (-) TimerEvent: {}
+[4.227758] (-) TimerEvent: {}
+[4.328444] (-) TimerEvent: {}
+[4.429365] (-) TimerEvent: {}
+[4.530237] (-) TimerEvent: {}
+[4.630945] (-) TimerEvent: {}
+[4.731777] (-) TimerEvent: {}
+[4.832636] (-) TimerEvent: {}
+[4.933375] (-) TimerEvent: {}
+[5.034206] (-) TimerEvent: {}
+[5.135100] (-) TimerEvent: {}
+[5.235939] (-) TimerEvent: {}
+[5.336587] (-) TimerEvent: {}
+[5.437335] (-) TimerEvent: {}
+[5.538094] (-) TimerEvent: {}
+[5.638860] (-) TimerEvent: {}
+[5.739721] (-) TimerEvent: {}
+[5.840498] (-) TimerEvent: {}
+[5.941339] (-) TimerEvent: {}
+[6.042153] (-) TimerEvent: {}
+[6.142944] (-) TimerEvent: {}
+[6.243745] (-) TimerEvent: {}
+[6.344406] (-) TimerEvent: {}
+[6.445284] (-) TimerEvent: {}
+[6.546032] (-) TimerEvent: {}
+[6.646884] (-) TimerEvent: {}
+[6.747765] (-) TimerEvent: {}
+[6.848607] (-) TimerEvent: {}
+[6.949308] (-) TimerEvent: {}
+[7.050031] (-) TimerEvent: {}
+[7.150786] (-) TimerEvent: {}
+[7.251708] (-) TimerEvent: {}
+[7.352474] (-) TimerEvent: {}
+[7.453304] (-) TimerEvent: {}
+[7.554092] (-) TimerEvent: {}
+[7.654926] (-) TimerEvent: {}
+[7.755711] (-) TimerEvent: {}
+[7.856480] (-) TimerEvent: {}
+[7.957403] (-) TimerEvent: {}
+[8.058410] (-) TimerEvent: {}
+[8.159165] (-) TimerEvent: {}
+[8.260004] (-) TimerEvent: {}
+[8.360830] (-) TimerEvent: {}
+[8.461637] (-) TimerEvent: {}
+[8.562354] (-) TimerEvent: {}
+[8.663058] (-) TimerEvent: {}
+[8.763962] (-) TimerEvent: {}
+[8.864949] (-) TimerEvent: {}
+[8.965853] (-) TimerEvent: {}
+[9.066683] (-) TimerEvent: {}
+[9.167507] (-) TimerEvent: {}
+[9.268447] (-) TimerEvent: {}
+[9.369401] (-) TimerEvent: {}
+[9.470302] (-) TimerEvent: {}
+[9.571110] (-) TimerEvent: {}
+[9.672238] (-) TimerEvent: {}
+[9.773142] (-) TimerEvent: {}
+[9.874056] (-) TimerEvent: {}
+[9.975022] (-) TimerEvent: {}
+[10.075945] (-) TimerEvent: {}
+[10.176947] (-) TimerEvent: {}
+[10.277811] (-) TimerEvent: {}
+[10.378825] (-) TimerEvent: {}
+[10.479761] (-) TimerEvent: {}
+[10.580740] (-) TimerEvent: {}
+[10.681701] (-) TimerEvent: {}
+[10.782674] (-) TimerEvent: {}
+[10.883519] (-) TimerEvent: {}
+[10.984249] (-) TimerEvent: {}
+[11.085198] (-) TimerEvent: {}
+[11.186033] (-) TimerEvent: {}
+[11.252768] (ti_rlsk_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 38, in get_data_files_mapping\n    assert not os.path.isabs(dest)\nAssertionError\n'}
+[11.272406] (ti_rlsk_pkg) JobEnded: {'identifier': 'ti_rlsk_pkg', 'rc': 1}
+[11.286343] (-) TimerEvent: {}
+[11.286936] (common_dependencies) JobEnded: {'identifier': 'common_dependencies', 'rc': 'SIGINT'}
+[11.298596] (multi_robot_controller) JobEnded: {'identifier': 'multi_robot_controller', 'rc': 'SIGINT'}
+[11.312483] (user_interface) JobEnded: {'identifier': 'user_interface', 'rc': 'SIGINT'}
+[11.325416] (-) EventReactorShutdown: {}

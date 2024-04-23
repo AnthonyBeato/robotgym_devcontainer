@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000835] (m2wr_description) JobQueued: {'identifier': 'm2wr_description', 'dependencies': OrderedDict()}
+[0.001978] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002530] (ti_rlsk_description) JobQueued: {'identifier': 'ti_rlsk_description', 'dependencies': OrderedDict()}
+[0.003086] (m2wr_description) JobStarted: {'identifier': 'm2wr_description'}
+[0.022508] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.042687] (ti_rlsk_description) JobStarted: {'identifier': 'ti_rlsk_description'}
+[0.071377] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'cmake'}
+[0.086307] (-) TimerEvent: {}
+[0.091537] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '/thesis_project/simulation_ws/src/m2wr_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/thesis_project/install/m2wr_description'], 'cwd': '/thesis_project/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.125189] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.125705] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/thesis_project/dev_ws/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/thesis_project/install/my_package'], 'cwd': '/thesis_project/build/my_package', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/my_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.151324] (ti_rlsk_description) JobProgress: {'identifier': 'ti_rlsk_description', 'progress': 'cmake'}
+[0.151829] (ti_rlsk_description) Command: {'cmd': ['/usr/bin/cmake', '/thesis_project/simulation_ws/src/ti_rlsk_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/thesis_project/install/ti_rlsk_description'], 'cwd': '/thesis_project/build/ti_rlsk_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/ti_rlsk_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.186452] (-) TimerEvent: {}
+[0.287380] (-) TimerEvent: {}
+[0.388110] (-) TimerEvent: {}
+[0.488937] (-) TimerEvent: {}
+[0.589894] (-) TimerEvent: {}
+[0.690923] (-) TimerEvent: {}
+[0.697292] (ti_rlsk_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.700216] (m2wr_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703404] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.791092] (-) TimerEvent: {}
+[0.893534] (-) TimerEvent: {}
+[0.994690] (-) TimerEvent: {}
+[1.095521] (-) TimerEvent: {}
+[1.196358] (-) TimerEvent: {}
+[1.297323] (-) TimerEvent: {}
+[1.345517] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.348433] (m2wr_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.354886] (ti_rlsk_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.397519] (-) TimerEvent: {}
+[1.471539] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.474184] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.476051] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.497691] (-) TimerEvent: {}
+[1.598586] (-) TimerEvent: {}
+[1.699887] (-) TimerEvent: {}
+[1.800993] (-) TimerEvent: {}
+[1.925675] (-) TimerEvent: {}
+[2.031619] (-) TimerEvent: {}
+[2.136337] (-) TimerEvent: {}
+[2.237562] (-) TimerEvent: {}
+[2.340992] (-) TimerEvent: {}
+[2.444307] (-) TimerEvent: {}
+[2.545281] (-) TimerEvent: {}
+[2.646230] (-) TimerEvent: {}
+[2.747252] (-) TimerEvent: {}
+[2.848088] (-) TimerEvent: {}
+[2.949229] (-) TimerEvent: {}
+[3.050175] (-) TimerEvent: {}
+[3.152500] (-) TimerEvent: {}
+[3.253408] (-) TimerEvent: {}
+[3.354677] (-) TimerEvent: {}
+[3.456778] (-) TimerEvent: {}
+[3.509087] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.511015] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.512894] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.556938] (-) TimerEvent: {}
+[3.564879] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.567791] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.570229] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.572641] (ti_rlsk_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.574713] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.577809] (m2wr_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.580127] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.598536] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.603098] (m2wr_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.657115] (-) TimerEvent: {}
+[3.758050] (-) TimerEvent: {}
+[3.761451] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.764192] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.767792] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.858234] (-) TimerEvent: {}
+[3.968614] (-) TimerEvent: {}
+[4.069601] (-) TimerEvent: {}
+[4.176266] (-) TimerEvent: {}
+[4.277640] (-) TimerEvent: {}
+[4.378867] (-) TimerEvent: {}
+[4.483361] (-) TimerEvent: {}
+[4.584967] (-) TimerEvent: {}
+[4.686964] (-) TimerEvent: {}
+[4.793145] (-) TimerEvent: {}
+[4.894071] (-) TimerEvent: {}
+[4.996281] (-) TimerEvent: {}
+[5.097343] (-) TimerEvent: {}
+[5.202390] (-) TimerEvent: {}
+[5.303994] (-) TimerEvent: {}
+[5.404940] (-) TimerEvent: {}
+[5.508426] (-) TimerEvent: {}
+[5.609888] (-) TimerEvent: {}
+[5.711099] (-) TimerEvent: {}
+[5.754022] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.758854] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.776273] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.811273] (-) TimerEvent: {}
+[5.865494] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.886450] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.900316] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.922478] (-) TimerEvent: {}
+[5.923425] (ti_rlsk_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.928437] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.933345] (ti_rlsk_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.946645] (m2wr_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.952580] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.961647] (m2wr_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.022673] (-) TimerEvent: {}
+[6.124067] (-) TimerEvent: {}
+[6.160257] (m2wr_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[6.162294] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[6.163687] (ti_rlsk_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[6.224227] (-) TimerEvent: {}
+[6.325198] (-) TimerEvent: {}
+[6.429304] (-) TimerEvent: {}
+[6.530732] (-) TimerEvent: {}
+[6.636419] (-) TimerEvent: {}
+[6.705324] (ti_rlsk_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.728650] (m2wr_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.732841] (my_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.736552] (-) TimerEvent: {}
+[6.837569] (-) TimerEvent: {}
+[6.942127] (-) TimerEvent: {}
+[7.044295] (-) TimerEvent: {}
+[7.152247] (-) TimerEvent: {}
+[7.223444] (ti_rlsk_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.233367] (my_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.239174] (m2wr_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.252438] (-) TimerEvent: {}
+[7.354093] (-) TimerEvent: {}
+[7.455967] (-) TimerEvent: {}
+[7.556816] (-) TimerEvent: {}
+[7.657736] (-) TimerEvent: {}
+[7.697574] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[7.702204] (m2wr_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[7.706617] (ti_rlsk_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[7.757910] (-) TimerEvent: {}
+[7.858893] (-) TimerEvent: {}
+[7.959704] (-) TimerEvent: {}
+[8.060599] (-) TimerEvent: {}
+[8.161567] (-) TimerEvent: {}
+[8.262418] (-) TimerEvent: {}
+[8.363241] (-) TimerEvent: {}
+[8.464218] (-) TimerEvent: {}
+[8.564979] (-) TimerEvent: {}
+[8.665804] (-) TimerEvent: {}
+[8.766678] (-) TimerEvent: {}
+[8.868017] (-) TimerEvent: {}
+[8.969100] (-) TimerEvent: {}
+[9.070009] (-) TimerEvent: {}
+[9.170944] (-) TimerEvent: {}
+[9.271695] (-) TimerEvent: {}
+[9.332783] (m2wr_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.334320] (m2wr_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.335698] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.337158] (ti_rlsk_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.371889] (-) TimerEvent: {}
+[9.472572] (-) TimerEvent: {}
+[9.487590] (m2wr_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.489684] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.501484] (my_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.503286] (my_package) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.572822] (-) TimerEvent: {}
+[9.579554] (m2wr_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.581463] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.673025] (-) TimerEvent: {}
+[9.734627] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.773175] (-) TimerEvent: {}
+[9.872303] (my_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.873637] (-) TimerEvent: {}
+[9.974216] (-) TimerEvent: {}
+[10.074842] (-) TimerEvent: {}
+[10.175608] (-) TimerEvent: {}
+[10.276398] (-) TimerEvent: {}
+[10.363341] (m2wr_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.365780] (ti_rlsk_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.376555] (-) TimerEvent: {}
+[10.477278] (-) TimerEvent: {}
+[10.578573] (-) TimerEvent: {}
+[10.613428] (m2wr_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.615009] (ti_rlsk_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.678724] (-) TimerEvent: {}
+[10.753602] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.778879] (-) TimerEvent: {}
+[10.879587] (-) TimerEvent: {}
+[10.980353] (-) TimerEvent: {}
+[10.989455] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.080511] (-) TimerEvent: {}
+[11.181319] (-) TimerEvent: {}
+[11.205532] (ti_rlsk_description) StdoutLine: {'line': b'-- Generating done\n'}
+[11.207631] (m2wr_description) StdoutLine: {'line': b'-- Generating done\n'}
+[11.281532] (-) TimerEvent: {}
+[11.320097] (ti_rlsk_description) StdoutLine: {'line': b'-- Build files have been written to: /thesis_project/build/ti_rlsk_description\n'}
+[11.323580] (m2wr_description) StdoutLine: {'line': b'-- Build files have been written to: /thesis_project/build/m2wr_description\n'}
+[11.327063] (ti_rlsk_description) CommandEnded: {'returncode': 0}
+[11.335440] (ti_rlsk_description) JobProgress: {'identifier': 'ti_rlsk_description', 'progress': 'build'}
+[11.342982] (ti_rlsk_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/thesis_project/build/ti_rlsk_description', '--', '-j12', '-l12'], 'cwd': '/thesis_project/build/ti_rlsk_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/ti_rlsk_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[11.348950] (m2wr_description) CommandEnded: {'returncode': 0}
+[11.356134] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'build'}
+[11.367584] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/thesis_project/build/m2wr_description', '--', '-j12', '-l12'], 'cwd': '/thesis_project/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[11.381730] (-) TimerEvent: {}
+[11.482746] (-) TimerEvent: {}
+[11.581715] (ti_rlsk_description) CommandEnded: {'returncode': 0}
+[11.583552] (-) TimerEvent: {}
+[11.596157] (m2wr_description) CommandEnded: {'returncode': 0}
+[11.618438] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[11.645407] (ti_rlsk_description) JobProgress: {'identifier': 'ti_rlsk_description', 'progress': 'install'}
+[11.663921] (ti_rlsk_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/thesis_project/build/ti_rlsk_description'], 'cwd': '/thesis_project/build/ti_rlsk_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/ti_rlsk_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[11.667169] (m2wr_description) JobProgress: {'identifier': 'm2wr_description', 'progress': 'install'}
+[11.672768] (m2wr_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/thesis_project/build/m2wr_description'], 'cwd': '/thesis_project/build/m2wr_description', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/m2wr_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[11.678436] (ti_rlsk_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.683699] (-) TimerEvent: {}
+[11.689709] (m2wr_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.696098] (ti_rlsk_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.708803] (m2wr_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.718476] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /thesis_project/build/my_package\n'}
+[11.725868] (my_package) CommandEnded: {'returncode': 0}
+[11.732802] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[11.739086] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/thesis_project/build/my_package', '--', '-j12', '-l12'], 'cwd': '/thesis_project/build/my_package', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/my_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[11.760858] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/launch/rsp.launch.py\n'}
+[11.762486] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/launch/rsp.launch.py\n'}
+[11.783850] (-) TimerEvent: {}
+[11.822389] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/launch/rsp_sim.launch.py\n'}
+[11.824035] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/launch/rsp_sim.launch.py\n'}
+[11.883998] (-) TimerEvent: {}
+[11.917485] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ament_index/resource_index/package_run_dependencies/ti_rlsk_description\n'}
+[11.921634] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/ament_index/resource_index/package_run_dependencies/m2wr_description\n'}
+[11.939124] (my_package) CommandEnded: {'returncode': 0}
+[11.984177] (-) TimerEvent: {}
+[11.997739] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[12.005603] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/thesis_project/build/my_package'], 'cwd': '/thesis_project/build/my_package', 'env': OrderedDict([('HOSTNAME', '65b53883f601'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6ea8a40b-747a-4fda-a26b-a249b7c647b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'iron'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-362346e9-14e6-4cb8-860d-0ac501cad407.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-44eedfd7df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/thesis_project/build/my_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[12.013032] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ament_index/resource_index/parent_prefix_path/ti_rlsk_description\n'}
+[12.015689] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/ament_index/resource_index/parent_prefix_path/m2wr_description\n'}
+[12.025293] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.040812] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.084368] (-) TimerEvent: {}
+[12.090810] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.sh\n'}
+[12.092886] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/environment/ament_prefix_path.sh\n'}
+[12.114895] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/launch/listener.launch.py\n'}
+[12.161579] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/environment/ament_prefix_path.dsv\n'}
+[12.165525] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/environment/ament_prefix_path.dsv\n'}
+[12.184524] (-) TimerEvent: {}
+[12.186441] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/launch/talker.launch.py\n'}
+[12.231045] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/environment/path.sh\n'}
+[12.234433] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/environment/path.sh\n'}
+[12.284712] (-) TimerEvent: {}
+[12.290430] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[12.299309] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/environment/path.dsv\n'}
+[12.301374] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/environment/path.dsv\n'}
+[12.367644] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.bash\n'}
+[12.369255] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/local_setup.bash\n'}
+[12.384914] (-) TimerEvent: {}
+[12.412558] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[12.426435] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/local_setup.sh\n'}
+[12.427844] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.sh\n'}
+[12.485085] (-) TimerEvent: {}
+[12.486026] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/local_setup.zsh\n'}
+[12.487578] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.zsh\n'}
+[12.505038] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[12.544597] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/local_setup.dsv\n'}
+[12.546319] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/local_setup.dsv\n'}
+[12.568346] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[12.585301] (-) TimerEvent: {}
+[12.601338] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/package.dsv\n'}
+[12.603359] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/package.dsv\n'}
+[12.633613] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/environment/path.sh\n'}
+[12.680309] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ament_index/resource_index/packages/ti_rlsk_description\n'}
+[12.681965] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/ament_index/resource_index/packages/m2wr_description\n'}
+[12.685418] (-) TimerEvent: {}
+[12.692384] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/environment/path.dsv\n'}
+[12.758879] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/local_setup.bash\n'}
+[12.764105] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig.cmake\n'}
+[12.765979] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/cmake/ti_rlsk_descriptionConfig.cmake\n'}
+[12.785601] (-) TimerEvent: {}
+[12.814679] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/local_setup.sh\n'}
+[12.824029] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/cmake/m2wr_descriptionConfig-version.cmake\n'}
+[12.825433] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/cmake/ti_rlsk_descriptionConfig-version.cmake\n'}
+[12.872181] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/local_setup.zsh\n'}
+[12.882126] (m2wr_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/m2wr_description/share/m2wr_description/package.xml\n'}
+[12.883378] (ti_rlsk_description) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/ti_rlsk_description/share/ti_rlsk_description/package.xml\n'}
+[12.885706] (-) TimerEvent: {}
+[12.929344] (ti_rlsk_description) CommandEnded: {'returncode': 0}
+[12.931826] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/local_setup.dsv\n'}
+[12.977164] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/package.dsv\n'}
+[12.985874] (-) TimerEvent: {}
+[13.053329] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[13.086038] (-) TimerEvent: {}
+[13.130095] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[13.183654] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[13.186180] (-) TimerEvent: {}
+[13.248117] (my_package) StdoutLine: {'line': b'-- Symlinking: /thesis_project/install/my_package/share/my_package/package.xml\n'}
+[13.286513] (-) TimerEvent: {}
+[13.387173] (-) TimerEvent: {}
+[13.445980] (m2wr_description) CommandEnded: {'returncode': 0}
+[13.487342] (-) TimerEvent: {}
+[13.588202] (-) TimerEvent: {}
+[13.689037] (-) TimerEvent: {}
+[13.796697] (-) TimerEvent: {}
+[13.897494] (-) TimerEvent: {}
+[13.998378] (-) TimerEvent: {}
+[14.099398] (-) TimerEvent: {}
+[14.200265] (-) TimerEvent: {}
+[14.301166] (-) TimerEvent: {}
+[14.401922] (-) TimerEvent: {}
+[14.502589] (-) TimerEvent: {}
+[14.603325] (-) TimerEvent: {}
+[14.673662] (ti_rlsk_description) JobEnded: {'identifier': 'ti_rlsk_description', 'rc': 0}
+[14.687666] (my_package) CommandEnded: {'returncode': 0}
+[14.703521] (-) TimerEvent: {}
+[14.804380] (-) TimerEvent: {}
+[14.905140] (-) TimerEvent: {}
+[15.005856] (-) TimerEvent: {}
+[15.106558] (-) TimerEvent: {}
+[15.207374] (-) TimerEvent: {}
+[15.308252] (-) TimerEvent: {}
+[15.408941] (-) TimerEvent: {}
+[15.509661] (-) TimerEvent: {}
+[15.610381] (-) TimerEvent: {}
+[15.711374] (-) TimerEvent: {}
+[15.722202] (m2wr_description) JobEnded: {'identifier': 'm2wr_description', 'rc': 0}
+[15.811523] (-) TimerEvent: {}
+[15.912277] (-) TimerEvent: {}
+[16.012955] (-) TimerEvent: {}
+[16.113742] (-) TimerEvent: {}
+[16.214483] (-) TimerEvent: {}
+[16.315328] (-) TimerEvent: {}
+[16.317622] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[16.331995] (-) EventReactorShutdown: {}

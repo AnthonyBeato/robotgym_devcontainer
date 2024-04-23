@@ -1,0 +1,20 @@
+[17.943s] Invoking command in '/thesis_project/robotgym_ws/src/user_interface': PYTHONPATH=/thesis_project/robotgym_ws/build/user_interface/prefix_override:/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/user_interface build --build-base /thesis_project/robotgym_ws/build/user_interface/build install --record /thesis_project/robotgym_ws/build/user_interface/install.log --single-version-externally-managed install_data
+[20.776s] running egg_info
+[20.792s] writing ../../build/user_interface/user_interface.egg-info/PKG-INFO
+[20.809s] writing dependency_links to ../../build/user_interface/user_interface.egg-info/dependency_links.txt
+[20.825s] writing entry points to ../../build/user_interface/user_interface.egg-info/entry_points.txt
+[20.837s] writing requirements to ../../build/user_interface/user_interface.egg-info/requires.txt
+[20.846s] writing top-level names to ../../build/user_interface/user_interface.egg-info/top_level.txt
+[20.928s] reading manifest file '../../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[21.083s] writing manifest file '../../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[21.091s] running build
+[21.093s] running build_py
+[21.128s] running install
+[21.131s] running install_lib
+[21.272s] running install_data
+[21.327s] running install_egg_info
+[21.358s] removing '/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[21.484s] Copying ../../build/user_interface/user_interface.egg-info to /thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages/user_interface-0.0.0-py3.10.egg-info
+[22.023s] running install_scripts
+[22.293s] writing list of installed files to '/thesis_project/robotgym_ws/build/user_interface/install.log'
+[22.910s] Invoked command in '/thesis_project/robotgym_ws/src/user_interface' returned '0': PYTHONPATH=/thesis_project/robotgym_ws/build/user_interface/prefix_override:/thesis_project/robotgym_ws/install/user_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/user_interface build --build-base /thesis_project/robotgym_ws/build/user_interface/build install --record /thesis_project/robotgym_ws/build/user_interface/install.log --single-version-externally-managed install_data

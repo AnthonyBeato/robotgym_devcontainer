@@ -1,0 +1,31 @@
+[4.817s] Invoking command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data
+[6.209s] running egg_info
+[6.217s] creating ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info
+[6.234s] writing ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/PKG-INFO
+[6.252s] writing dependency_links to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/dependency_links.txt
+[6.265s] writing entry points to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/entry_points.txt
+[6.272s] writing requirements to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/requires.txt
+[6.281s] writing top-level names to ../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/top_level.txt
+[6.290s] writing manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'
+[6.359s] reading manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'
+[6.462s] writing manifest file '../../build/ti_rlsk_pkg/ti_rlsk_pkg.egg-info/SOURCES.txt'
+[6.470s] running build
+[6.472s] running build_py
+[6.480s] creating /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build
+[6.485s] creating /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build/lib
+[6.491s] creating /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build/lib/ti_rlsk_pkg
+[6.510s] copying ti_rlsk_pkg/__init__.py -> /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build/lib/ti_rlsk_pkg
+[6.545s] running install
+[6.547s] running install_lib
+[6.593s] creating /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages/ti_rlsk_pkg
+[6.632s] copying /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build/lib/ti_rlsk_pkg/__init__.py -> /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages/ti_rlsk_pkg
+[6.698s] byte-compiling /thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages/ti_rlsk_pkg/__init__.py to __init__.cpython-310.pyc
+[6.783s] running install_data
+[6.799s] creating /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ament_index
+[6.805s] creating /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ament_index/resource_index
+[6.811s] creating /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ament_index/resource_index/packages
+[6.831s] copying resource/ti_rlsk_pkg -> /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ament_index/resource_index/packages
+[6.881s] copying package.xml -> /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg
+[6.917s] creating /thesis_project/robotgym_ws/install/ti_rlsk_pkg/share/ti_rlsk_pkg/launch
+[6.927s] error: can't copy 'launch/ti_rlsk_launch_file.py': doesn't exist or not a regular file
+[6.967s] Invoked command in '/thesis_project/robotgym_ws/src/ti_rlsk_pkg' returned '1': PYTHONPATH=/thesis_project/robotgym_ws/build/ti_rlsk_pkg/prefix_override:/thesis_project/robotgym_ws/install/ti_rlsk_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ti_rlsk_pkg build --build-base /thesis_project/robotgym_ws/build/ti_rlsk_pkg/build install --record /thesis_project/robotgym_ws/build/ti_rlsk_pkg/install.log --single-version-externally-managed install_data
