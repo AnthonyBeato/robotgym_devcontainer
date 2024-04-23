@@ -1,2 +1,9 @@
 /dev_ws
 /simulation_ws
+
+/log
+/build
+/install
+
+*.pdf
+*.gv
